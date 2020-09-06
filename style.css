@@ -196,7 +196,9 @@ ul li{
 .main-content .inner-sec .row .column div{
     margin: 18px 0;
 }
-
+.main-content .inner-sec .row .column:first-child : .more-result{
+color:red;
+}
 .main-content .side-result{
     width: 363px;
     height:930px;
@@ -251,4 +253,26 @@ ul li{
 }
 .up-sec-footer-text a{
     padding: 0 10px;
+}
+.mid-sec{
+    margin-left:80%;
+    height:50px;
+    font-size:13px;
+}
+.side-footer{
+    border-radius:7px;
+    border: 1px solid rgba(204, 204, 204, 0.87);
+    height: 150px;
+}
+.side-footer .container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.side-footer .container .div-1 p{
+    width:260px;
+    margin-right:-10px;
+}
+.side-footer .container .div-2 img{
+    width:120px;
 }
